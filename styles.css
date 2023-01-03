@@ -1,0 +1,21 @@
+/* my variables */
+
+:root {
+
+    --clr-primary-400: hsl(0, 100%, 74%);
+    --clr-primary-300: hsl(154, 59%, 51%);
+
+    --clr-accent-600: hsl(248, 32%, 49%);
+
+    --clr-neutral-700: hsl(249, 10%, 26%);
+    --clr-neutral-200: hsl(246, 25%, 77%);
+
+    --ff-primary: "Poppins", sans-serif;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+
+    --fs-body: 1rem;
+}
