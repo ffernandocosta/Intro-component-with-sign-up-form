@@ -9,6 +9,7 @@
 
     --clr-neutral-700: hsl(249, 10%, 26%);
     --clr-neutral-200: hsl(246, 25%, 77%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
 
     --ff-primary: "Poppins", sans-serif;
 
@@ -18,4 +19,14 @@
     --fw-bold: 700;
 
     --fs-body: 1rem;
+}
+
+/* general styling */
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-body);
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-primary-400);
 }
