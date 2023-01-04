@@ -34,8 +34,10 @@ body {
 /* container */
 
 .container {
-    margin: 4rem 1rem;
+    margin: 4rem 1.5rem;
     text-align: center;
+    display: grid;
+    gap: 2.5rem;
 }
 
 /* course description */
@@ -48,4 +50,17 @@ body {
 
 .course__title {
     font-size: 1.7rem;
+}
+
+/* free-trial form */
+
+.free-trial__form {
+    display: grid;
+    gap: 1rem;
+}
+
+.free-trial__7-days {
+    background-color: var(--clr-accent-600);
+    padding: 1.3rem 4.5rem;
+    border-radius: 0.7rem;
 }
