@@ -51,3 +51,28 @@
   #root, #__next {
     isolation: isolate;
   }
+  /*
+    10. Reset fieldset styles
+  */
+  legend {
+    display: table;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    + * {
+        clear: both;
+    }
+  }
+
+  fieldset {
+    border: 0;
+    padding: 0.01em 0 0 0;
+    margin: 0;
+    min-width: 0;
+  }
+
+  body:not(:-moz-handler-blocked) fieldset {
+    display: table-cell;
+  }
