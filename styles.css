@@ -30,3 +30,22 @@ body {
     color: var(--clr-neutral-100);
     background-color: var(--clr-primary-400);
 }
+
+/* container */
+
+.container {
+    margin: 4rem 1rem;
+    text-align: center;
+}
+
+/* course description */
+
+.course__description {
+    display: grid;
+    gap: 1.5rem;
+    padding: 0.5rem;
+}
+
+.course__title {
+    font-size: 1.7rem;
+}
