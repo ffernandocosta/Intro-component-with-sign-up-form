@@ -60,6 +60,8 @@ body {
     gap: 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 0px 0px;
     border-radius: 0.6rem;
+    max-width: 525px;
+    min-width: 325px;
 }
 
 .free-trial__7-days {
@@ -110,4 +112,32 @@ body {
     text-decoration: none;
     color: var(--clr-primary-400);
     font-weight: var(--fw-bold);
+}
+
+/* desktop version */
+
+@media screen and (min-width: 648px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 7rem;
+    }
+
+    .course__description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        width: 100%;
+    }
+
+    .course__title {
+        width: 100%;
+        font-size: 3rem;
+    }
+    
+    .free-trial__inputs {
+        padding: 2.5rem;
+    }
 }
