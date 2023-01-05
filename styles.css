@@ -30,16 +30,13 @@ body {
     color: var(--clr-neutral-100);
     background-image: url("images/bg-intro-mobile.png");
     background-color: var(--clr-primary-400);
-}
 
-/* container */
-
-.container {
     margin: 4rem 1.5rem;
     text-align: center;
     display: grid;
     gap: 2.5rem;
 }
+
 
 /* course description */
 
