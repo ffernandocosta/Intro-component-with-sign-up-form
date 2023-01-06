@@ -4,6 +4,7 @@
 
     --clr-primary-400: hsl(0, 100%, 74%);
     --clr-primary-300: hsl(154, 59%, 51%);
+    --clr-primary-200: hsl(154, 59%, 70%);
 
     --clr-accent-600: hsl(248, 32%, 49%);
 
@@ -101,6 +102,11 @@ body {
     border-right: 1px solid rgba(0, 0, 0, 0.12);
     border-left: 1px solid rgba(0, 0, 0, 0.12);
     border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.free-trial__input-submit:hover {
+    background-color: var(--clr-primary-200);
+    cursor: pointer;
 }
 
 .terms-and-services {
