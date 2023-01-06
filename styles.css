@@ -30,7 +30,11 @@ body {
     color: var(--clr-neutral-100);
     background-image: url("images/bg-intro-mobile.png");
     background-color: var(--clr-primary-400);
+}
 
+/* container */
+
+.container {
     margin: 4rem 1.5rem;
     text-align: center;
     display: grid;
@@ -57,7 +61,7 @@ body {
     gap: 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 0px 0px;
     border-radius: 0.6rem;
-    max-width: 525px;
+    max-width: 700px;
     min-width: 325px;
 }
 
@@ -117,7 +121,7 @@ body {
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 7rem;
+        gap: 2rem;
     }
 
     .course__description {
@@ -136,5 +140,11 @@ body {
     
     .free-trial__inputs {
         padding: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        margin: 7rem;
     }
 }
