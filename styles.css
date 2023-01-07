@@ -121,6 +121,20 @@ body {
     font-weight: var(--fw-bold);
 }
 
+/* error messages */
+
+.show-error {
+    color: var(--clr-primary-400);
+    font-style: italic;
+    font-size: 0.7rem;
+    font-weight: var(--fw-bold);
+    margin-left: auto;
+}
+
+.remove-error {
+    display: none;
+}
+
 /* desktop version */
 
 @media screen and (min-width: 648px) {
