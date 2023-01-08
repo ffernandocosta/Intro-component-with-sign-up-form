@@ -41,16 +41,16 @@
 
         <fieldset class="free-trial__inputs">
           
-          <input type="text" class="free-trial__input" id="first-name" placeholder="First Name">
+          <input type="text" class="free-trial__input" id="first-name" placeholder="First Name" required minlength="3">
           <span class="show-error remove-error">First Name cannot be empty</span>
 
-          <input type="text" class="free-trial__input" id="last-name" placeholder="Last Name">
+          <input type="text" class="free-trial__input" id="last-name" placeholder="Last Name" required minlength="3">
           <span class="show-error remove-error">Last Name cannot be empty</span>
 
-          <input type="email" class="free-trial__input" id="email" placeholder="Email Address">
+          <input type="email" class="free-trial__input" id="email" placeholder="Email Address" required minlength="3">
           <span class="show-error remove-error">Looks like this is not an email</span>
 
-          <input type="password" class="free-trial__input" id="password" placeholder="Password">
+          <input type="password" class="free-trial__input" id="password" placeholder="Password" required minlength="3">
           <span class="show-error remove-error">Password cannot be empty</span>
 
           <input type="submit" value="Claim your free trial" class="free-trial__input-submit">
@@ -62,7 +62,7 @@
       </form>
       
     </div>
-    
+
   </main>
   
   <footer>
