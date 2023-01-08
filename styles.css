@@ -135,6 +135,10 @@ body {
     display: none;
 }
 
+.free-trial__input-error {
+    border: 2px solid var(--clr-primary-400);
+}
+
 /* desktop version */
 
 @media screen and (min-width: 648px) {
