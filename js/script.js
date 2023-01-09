@@ -1,16 +1,17 @@
-const form = document.querySelector(".free-trial__form");
 const formFields = document.querySelectorAll("[required]");
-const submitButton = document.querySelector(".free-trial__input-submit");
+const formSubmit = document.querySelector("#form-submit");
+
+
 
 formFields.forEach((field) => {
     field.addEventListener( "blur", () => verifyField(field) );
     field.addEventListener( "input", () => verifyField(field) );
-    field.addEventListener( "invalid", event => event.preventDefault() );
+    field.addEventListener( "invalid", e => e.preventDefault() );
+
 } )
 
 
 const verifyField = (field) => {
-    
 
     if (field.value === "") {
         field.classList.add('free-trial__input-error');
@@ -20,3 +21,11 @@ const verifyField = (field) => {
         field.nextElementSibling.classList.add('remove-error');
     }
 }
+
+formSubmit.addEventListener("click", (e) => {
+    e.preventDefault();
+    formFields.forEach((field) => {
+        verifyField(field);
+    })
+
+})
